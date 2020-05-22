@@ -127,7 +127,20 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 				<li class="text">Temperatura  :  </li>
 				<li><input name="temperatura" type="text" ></li>
 			</ul>
-			
+			<ul>
+				<li class="text">Ml de líquido de Rodilla  :  </li>
+				<li><input name="liquido" type="number" min="0" max="500"></li>
+			</ul>
+			<ul>
+				<li class="text">Rodilla  :  </li>
+				<li>
+                    <select name="rodilla" >
+                        <option value="">Ninguna</option>
+                        <option value="derecha">Derecha</option>
+                        <option value="izquierda">Izquierda</option>
+                    </select>    
+                </li>
+			</ul>
 			<ul>
 				<li class="text">Observaciones  :  </li>
 				<li><textarea name="observaciones"></textarea></li>
@@ -145,7 +158,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 
 <!--footer-->
 <div class="footer-w3">
-	<p>© 2020 Hell's pass hospital</p>
+	<p>© 2020 </p>
 </div>
 <!--//footer-->
 <!---728x90--->

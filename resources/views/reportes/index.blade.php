@@ -113,7 +113,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 
 <!--footer-->
 <div class="footer-w3">
-	<p>© 2020 Hell's pass hospital</p>
+	<p>© 2020 </p>
 </div>
 <!--//footer-->
 <!---728x90--->

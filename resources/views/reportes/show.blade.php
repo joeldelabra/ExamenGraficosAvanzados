@@ -126,6 +126,14 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 				<li class="text">Temperatura  :  </li>
 				<li><input name="temperatura" type="text" readonly value="{{$reporte->temperatura}}"></li>
 			</ul>
+			<ul>
+				<li class="text">Ml de líquido de Rodilla  :  </li><br/>
+				<li><input name="liquido" type="text" readonly value="{{$reporte->liquido}}"></li>
+			</ul>
+			<ul>
+				<li class="text">Rodilla  :  </li>
+				<li><input name="rodilla" type="text" readonly value="{{$reporte->rodilla}}"></li>
+			</ul>
 			
 			<ul>
 				<li class="text">Observaciones  :  </li>
@@ -140,7 +148,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 
 <!--footer-->
 <div class="footer-w3">
-	<p>© 2020 Hell's pass hospital</p>
+	<p>© 2020</p>
 </div>
 <!--//footer-->
 <!---728x90--->
